@@ -36,6 +36,9 @@ let chart1_2_options = {
     position: "nearest"
   },
   responsive: true,
+  animation:{
+    duration:0
+  },
   scales: {
     yAxes: [
       {
@@ -297,6 +300,9 @@ let chartExample3 = {
       position: "nearest"
     },
     responsive: true,
+    animation:{
+      duration:0
+    },
     scales: {
       yAxes: [
         {
@@ -383,6 +389,9 @@ const chartExample4 = {
       position: "nearest"
     },
     responsive: true,
+    animation:{
+      duration:0
+    },
     scales: {
       yAxes: [
         {
